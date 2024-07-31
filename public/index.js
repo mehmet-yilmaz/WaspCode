@@ -1,15 +1,13 @@
-
-
-// clicker.addEventListener("click", function () { 
-//     var sub = document.getElementById("sub");
-//     console.log("Click");
-//     sub.innerHTML = "WASP";
-
-// });
-
 var number = 0;
+var sub;
+document.addEventListener('DOMContentLoaded', init);
+function init() {
+    number = 0;
+    sub = document.getElementById("sub");
+    sub.innerText = number;
+};
+
 function clicked() { 
     console.log("CLICKED!");
-    var sub = document.getElementById("sub");
-    sub.innerText = number++;
+    sub.innerText = ++number;
 };
