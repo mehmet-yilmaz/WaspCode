@@ -1,3 +1,5 @@
+![WaspCode Logo](public/images/wasp-social-logo.png)
+
 # Wasp Code
 
 Wasp is an Angular / Nest.JS like C++ framework for creating structured, well organized, SOLID principles stable C++ apps.
